@@ -1,0 +1,25 @@
+{
+    "name": "iteachworld/bc-compatible-event-dispatcher",
+    "type": "library",
+    "description": "BC compatible Symfony EventDispatcher Component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Symfony Community",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "replace": {
+        "symfony/event-dispatcher": "^2|^3"
+    },
+    "require": {
+        "php": "^5.5.9|>=7.0.8"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\EventDispatcher\\": "" }
+    }
+}
